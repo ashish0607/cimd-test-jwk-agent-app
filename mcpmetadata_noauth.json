@@ -1,0 +1,20 @@
+{
+  "client_id": "https://ashish0607.github.io/cimd-test-jwk-agent-app/mcpmetadata.json",
+  "client_name": "Ashish CIMD Test Agent",
+  "client_uri": "https://ashish0607.github.io/cimd-test-jwk-agent-app",
+  "logo_uri": "https://github.com/fluidicon.png",
+  "redirect_uris": [
+    "https://example.com",
+    "https://web.auth.io/app/oauth2"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "urn:ietf:params:oauth:grant-type:device_code",
+    "urn:ietf:params:oauth:grant-type:token-exchange",
+    "urn:ietf:params:oauth:grant-type:jwt-bearer"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
