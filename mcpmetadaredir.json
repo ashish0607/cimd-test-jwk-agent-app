@@ -1,0 +1,14 @@
+{
+  "client_id": "https://ashish0607.github.io/cimd-test-jwk-agent-app/mcpmetadaredir.json",
+  "client_name": "Domain Mismatch Test",
+  "redirect_uris": [
+    "https://untrusted-attacker-domain.com/callback"
+  ],
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
